@@ -8,7 +8,7 @@ on:
 jobs:
 	repo-sync:
 		runs-on: ubuntu-latest
-        
+
 		steps:
 		- uses: actions/checkout@v2
 			with:
